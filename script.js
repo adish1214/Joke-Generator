@@ -4,7 +4,7 @@ jokeBtn.addEventListener('click',()=>{
 })
 
 async function getJoke() {
-      const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw&type=single";
+      const url = "https://v2.jokeapi.dev/joke/Any?type=single";
       try {
         const res = await fetch(url);
         const data = await res.json();

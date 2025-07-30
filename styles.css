@@ -1,5 +1,5 @@
 body{
-    background-color: #5EABD6;
+    background-color: #5eb6d6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,14 +14,17 @@ body{
     flex-direction: column;
     width: 500px;
     height: 500px;
-    background-color: #f03d55;
+    background-color: #fb3953;
     border-radius: 12%;
     box-shadow: 0 0 10px black;
 }
 
 .joke-section{
-    width: 75%;
-    width: 65%;
+    width: 60%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     padding: 8% 10%;
     color: rgb(0, 0, 0);
@@ -37,7 +40,7 @@ body{
     height: 15%;
     border: none;
     border-radius: 40px;
-    background-color: #fc7b3a;
+    background-color: #ff7033;
     color: white;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
